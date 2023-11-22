@@ -1,0 +1,6 @@
+Practial3 folder contains c codes. 
+To compile the above c files use the below commands:
+1. For file1.c file use the command as -  
+gcc -o fiel1 file1.c -lm
+2. For file2.c file use the command as 
+gcc -o file2 file2.c -lm
