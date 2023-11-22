@@ -1,0 +1,4 @@
+Practial4 folder contains c codes to calculate area. 
+To compile the above c files use the below commands: 
+1. gcc -o file file.c -lm -Wall
+./trap
