@@ -1,0 +1,10 @@
+Practial2 folder contains c codes for Conversion and Sum. 
+To compile the above c files use the below commands:
+1. For Conversion.c file use the command as:
+gcc Conversion Conversion.c -lm -Wall
+./Conversion
+
+2. For Sum.c file use the command as: 
+gcc Sum.c -o sums -lm -Wall
+./Sum
+
