@@ -1,5 +1,7 @@
 #include<stdio.h>
-int main() {
+int main() 
+{
+//declaring and initializing variables
 int i1 = 10;
 int i2 = 200;
 float fl1 = 1.11;
