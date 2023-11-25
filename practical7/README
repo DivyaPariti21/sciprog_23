@@ -1,0 +1,10 @@
+Practial6 folder contains c codes for dynamic memory allocation.
+
+To compile the above c files use the below commands:
+1. gcc -o file1 file1.c -lm -Wall
+./file1
+
+2. gcc -o da dynamicallocation.c  -lm -Wall
+./da
+
+
