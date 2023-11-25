@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+// Allocate array
 int *allocate(int n){
     int *p;
     p=(int *)malloc(n*sizeof(int));
@@ -12,14 +13,14 @@ void fillwithones(int *array, int n){
         array[i]=1;
     }
 }
-
+// Printing the array
 void printarray(int *array, int n){
     int i=0;
     for(;i<n;i++){
         printf("a[%d] = %d\n",i,array[i]);
     }
 }
-
+// freeing the memory of the array - deallocating the array
 void freeArray(int *array){
     free(array);
 }
