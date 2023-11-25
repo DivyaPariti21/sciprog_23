@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-
+//Creating function to return tangent value as double 
+//using Mclaurin approximation
 double arctanh1(const double x, const double delta);
 double arctanh2(const double x);
 
@@ -10,6 +11,7 @@ int main() {
     printf("Enter the precision for the Maclaurin Series: \n");
     scanf("%lf", &delta);
     int length = 1000;
+    // initiating variables to store the results
     double tan1[length];
     double tan2[length];
 
@@ -30,7 +32,7 @@ double arctanh1(const double x, const double delta){
     double arcTan=0;
     double elem, val;
     int n=0;
-
+    // initializing loop and the loop continues till the value of elem is greater than delta
     do{
         val = 2*n+1;
         elem = pow(x, val)/val;
