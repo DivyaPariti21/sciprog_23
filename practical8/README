@@ -1,0 +1,5 @@
+Practial8 folder contains c codes for GCD of two numbers using recursive and iteration methods. 
+To compile the above c files use the below commands:
+1. gcc gcd gcd.c -lm -Wall
+./gcd
+
