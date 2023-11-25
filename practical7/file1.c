@@ -1,4 +1,4 @@
-
+// Using taylor series for e^x
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
@@ -24,6 +24,7 @@ int main(void){
     }
 
     e = 1.0;
+    // fill the array 
     for(i=0; i<order; i++){
         e = e + terms[i];
     }
