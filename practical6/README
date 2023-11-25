@@ -1,0 +1,7 @@
+Practial6 folder contains c codes on matrix multiplication.
+To compile the above c files use the below commands:
+1. gcc -c main.c
+gcc -c matmult.c
+gcc -o matmultc main.o matmult.o -lm
+./matmultc
+
